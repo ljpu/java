@@ -4,9 +4,10 @@ Article link : https://www.mkyong.com/spring-boot/spring-rest-hello-world-exampl
 
 ## 1. How to start
 ```
-$ git clone https://github.com/mkyong/spring-boot.git
+$ git clone https://github.com/ljpu/spring-boot.git
 $ cd spring-rest-hello-world
 $ mvn spring-boot:run
 
-$ curl -v localhost:8080/books
+$ curl -v localhost:8080/books 
+$ start in web http://localhost:8080/books
 ```
