@@ -10,4 +10,6 @@ $ mvn spring-boot:run
 
 $ curl -v localhost:8080/books 
 $ start in web http://localhost:8080/books
+
+This is a cloned copy of https://github.com/mkyong/spring-boot.git
 ```
