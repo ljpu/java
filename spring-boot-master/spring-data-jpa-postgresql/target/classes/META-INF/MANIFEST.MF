@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Leo Pu
+Build-Jdk: 17.0.1
+Implementation-Title: Spring Boot Spring Data JPA
+Implementation-Version: 1.0
+Implementation-Vendor-Id: org.springframework.boot
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/spring-boot-data-jpa
+Created-By: Maven Integration for Eclipse
+
