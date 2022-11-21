@@ -1,6 +1,0 @@
-2021-11-17 11:07:06,260 INFO c.m.StartApplication [main] Starting StartApplication on DESKTOP-N5T3PG8 with PID 21380 (D:\git\spring-boot-master\logging-log4j2\target\classes started by Leo Pu in D:\git\spring-boot-master\logging-log4j2)
-2021-11-17 11:07:06,274 DEBUG c.m.StartApplication [main] Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
-2021-11-17 11:07:06,275 INFO c.m.StartApplication [main] No active profile set, falling back to default profiles: default
-2021-11-17 11:07:07,968 INFO c.m.StartApplication [main] Started StartApplication in 2.257 seconds (JVM running for 5.988)
-2021-11-17 11:08:32,697 DEBUG c.m.HelloController [http-nio-8080-exec-1] Hello from Log4j 2 - num : [1, 2, 3, 4, 5]
-2021-11-17 11:08:32,698 DEBUG c.m.HelloController [http-nio-8080-exec-1] Hello from Log4j 2 - num : [1, 2, 3, 4, 5]

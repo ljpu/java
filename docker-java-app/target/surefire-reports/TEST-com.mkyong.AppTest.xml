@@ -4,7 +4,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.18.04"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/ljpu/git/docker-java/docker-java-app"/>
+    <property name="maven.multiModuleProjectDirectory" value="/mnt/d/git/docker-java-app"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -13,7 +13,7 @@
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/ljpu/git/docker-java/docker-java-app"/>
+    <property name="user.dir" value="/mnt/d/git/docker-java-app"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.18.04"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
@@ -31,7 +31,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="5.10.16.3-microsoft-standard-WSL2"/>
+    <property name="os.version" value="5.10.102.1-microsoft-standard-WSL2"/>
     <property name="library.jansi.path" value="/mnt/c/Software/apache-maven-3.6.1/lib/jansi-native"/>
     <property name="user.home" value="/home/ljpu"/>
     <property name="user.timezone" value="America/New_York"/>
