@@ -1,0 +1,27 @@
+import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.*;
+import org.springframework.core.env.*;
+import org.springframework.core.io.support.*;
+import org.springframework.context.annotation.*;
+import java.util.*;
+
+@Component
+public class QuestionProperties {
+
+    public String template;
+}
+
+@Component
+class TimingProperties {
+
+    public int minimum;
+}
+
+@Configuration
+@Import({QuestionProperties.class, TimingProperties.class})
+class Config {
+    @Value("#{question.template}")
+    public void setDatabaseName(template) {questionProperties.class};
+    @Value("#{question.template}")
+    public void setDatabaseName(template) {questionProperties.class};
+}
