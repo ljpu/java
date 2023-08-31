@@ -4,7 +4,7 @@ Article link :
 
 ## 1. How to start
 ```
-$ git clone [https://github.com/lpu/spring-boot.git](https://github.com/lpu/spring-boot.git)
+$ git clone [https://github.com/lpu/java/spring/spring-boot.git] (https://github.com/lpu/spring-boot.git)
 
 $ cd spring-boot-hello-world
 
