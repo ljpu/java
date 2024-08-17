@@ -432,3 +432,4 @@ public class StudentServicesApplicationTests {
 ```
 
 ---
+(http://localhost:8080/actuator) is to check the web server is running.
