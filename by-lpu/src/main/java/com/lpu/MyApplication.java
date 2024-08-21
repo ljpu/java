@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.AsyncConfigurer;
 import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.scheduling.concurrent.DefaultManagedTaskExecutor;
 
 @SpringBootApplication
 @EnableAsync
@@ -28,17 +29,6 @@ public class MyApplication implements AsyncConfigurer
     {
         return new CustomAsyncExceptionHandler();
     }
+
 } 
 
-class CustomAsyncExceptionHandler implements AsyncUncaughtExceptionHandler 
-{
-    public void handleUncaughtException(Throwable throwable, Method method, Object... obj) 
-    {
-        System.out.println("Exception Cause - " + throwable.getMessage());
-        System.out.println("Method name - " + method.getName()); 
-        for (Object param : obj) 
-        {
-            System.out.println("Parameter value - " + param);
-        } 
-    }
-}

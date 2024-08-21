@@ -3,11 +3,13 @@ package com.lpu.exam;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+
 public class Main {
 
     public static int[] delete(int[] arr, int indexToBeRmoved) {
         int j = indexToBeRmoved;
         int[] newArr = new int[arr.length - 1];
+        
         for (int i = 0, k = 0; i < arr.length; i++) {
             if (i != indexToBeRmoved) {
                 newArr[k] = arr[i];
