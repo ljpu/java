@@ -1,1 +1,1 @@
-The current Java repo has many branches, but not merged well.
+The current Java repo's branches haven updated to a well organized status
