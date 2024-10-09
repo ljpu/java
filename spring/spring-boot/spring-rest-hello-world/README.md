@@ -13,3 +13,5 @@ $ start in web http://localhost:8080/books
 
 This is a cloned copy of https://github.com/mkyong/spring-boot.git
 ```
+
+spring-rest-hello-world runs under java 1.8
