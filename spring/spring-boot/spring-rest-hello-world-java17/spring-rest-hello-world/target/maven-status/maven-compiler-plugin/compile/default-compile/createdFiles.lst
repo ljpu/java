@@ -1,0 +1,8 @@
+com\ljpu\boot\rest\Book.class
+com\ljpu\boot\rest\error\CustomGlobalExceptionHandler.class
+com\ljpu\boot\rest\error\BookNotFoundException.class
+com\ljpu\boot\rest\StartBookApplication.class
+com\ljpu\boot\rest\BookController.class
+com\ljpu\boot\rest\BookRepository.class
+com\ljpu\boot\rest\HelloController.class
+com\ljpu\boot\rest\error\BookUnSupportedFieldPatchException.class
