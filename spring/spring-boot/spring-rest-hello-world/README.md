@@ -15,3 +15,6 @@ This is a cloned copy of https://github.com/mkyong/spring-boot.git
 ```
 
 /spring-rest-hello-world runs under java 1.8
+
+How to use book.json to test http://localhost:8080/books, please 
+see the project spring-rest-hello-world-java17
